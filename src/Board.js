@@ -81,8 +81,8 @@ function Board({ nrows, ncols, chanceLightStartsOn }) {
 
   // if the game is won, just show a winning msg & render nothing else
 
-  if (hasWon()) {
-    return <div>You win!</div>;
+ if (hasWon()) {
+    return <div>You won!</div>;
   }
 
   // TODO
